@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Event Manager</h1>
+        <p>Plan & Manage Your Events Effortlessly</p>
+    </header>
+    
+    <section class="event-form">
+        <h2>Create an Event</h2>
+        <form id="eventForm">
+            <input type="text" id="eventName" placeholder="Event Name" required>
+            <input type="date" id="eventDate" required>
+            <input type="time" id="eventTime" required>
+            <input type="text" id="eventLocation" placeholder="Location" required>
+            <textarea id="eventDescription" placeholder="Event Description" required></textarea>
+            <button type="submit">Add Event</button>
+        </form>
+    </section>
+    
+    <section class="event-list">
+        <h2>Upcoming Events</h2>
+        <ul id="eventList"></ul>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@eventmanager.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
 
+    <footer>
+        <p>&copy; 2025 Event Manager. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
