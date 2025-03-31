@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -10,11 +11,50 @@ header {
     padding: 20px;
 }
 
-.event-form, .event-list {
-    margin-top: 20px;
+.event-form, .event-list, .contact {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input, button {
+input, textarea, button {
+    width: 100%;
     padding: 10px;
-    margin: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e3e3e3;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
 }
